@@ -1,0 +1,67 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+}
+title {
+}
+/*section {
+    display: block;
+}*/
+.header {
+    background-size: cover;
+    background-image: url("../IMG/unsplash_52a088bb6fb98_1-Recovered.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
+    text-align: center;
+}
+.logo {
+    position: relative;
+    display: block;
+    max-height: 164px;
+    margin: 0px auto;
+    text-align: center;
+    top: 74px;
+}
+.text {
+    padding-top: 67px;
+    font-size: 17px;
+    color: #00c0eb;
+}
+.button {
+    position: relative;
+    display: inline-block;
+    background-color: #008ec2;
+    color: white;
+    font-size: 33px;
+    top: 212px;
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 0%;
+    margin-left: 25px;
+}
+a:hover {
+    background-color: #2495ff;
+}
+.arrow {
+    width: 100%;
+    text-align: center;
+    display: block;
+    min-height: 50px;
+}
+
+p {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.footer {
+    display: block;
+}
+
+
+
+@media {
+}
