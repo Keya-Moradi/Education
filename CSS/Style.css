@@ -1,12 +1,7 @@
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
-title {
-}
-/*section {
-    display: block;
-}*/
 .header {
     background-size: cover;
     background-image: url("../IMG/unsplash_52a088bb6fb98_1-Recovered.jpg");
@@ -38,7 +33,7 @@ title {
     text-decoration: none;
     padding-left: 4px;
     padding-right: 4px;
-    border-radius: 0%;
+    border-radius: 40px;
     margin-left: 25px;
 }
 a:hover {
@@ -50,7 +45,6 @@ a:hover {
     display: block;
     min-height: 50px;
 }
-
 p {
     text-align: center;
 }
@@ -60,8 +54,15 @@ h1 {
 .footer {
     display: block;
 }
-
-
-
-@media {
+@media (min-width: 320px) {
+    .column {
+        width: 49%;
+    }
+    .column:nth-of-type(2n+1) {
+        margin-right: 2%;
+    }
 }
+@media (max-width: 319px) {
+    html {
+        font-size: 1.25em;
+    }
