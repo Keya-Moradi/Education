@@ -2,26 +2,51 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+body {
+    color: white;
+    background-color: gray;
+}
 .header {
-    background-size: cover;
-    background-image: url("../IMG/unsplash_52a088bb6fb98_1-Recovered.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 600px;
-    text-align: center;
+    background-color: royalblue;
+    padding: .25em .5em;
+    height: 60px;
+    padding: 10px;
+    border: 1px;
+    border-color: red;
+    margin: 0 auto;
 }
 .logo {
-    position: relative;
-    display: block;
-    max-height: 164px;
-    margin: 0px auto;
-    text-align: center;
-    top: 74px;
+    background-image: url("../IMG/IMG_3268 copy.png");
+    width: 100px;
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.text {
-    padding-top: 67px;
-    font-size: 17px;
-    color: #00c0eb;
+ul {
+    list-style-type: none;
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
+.menu {
+
+} 
+.signup {
+
+}
+/*video#bgvid {
+    display: inline block;
+    right: 0;
+    bottom: 0;
+    min-height: 700px;
+    margin: 0px auto;
+    width: auto;
+    z-index: -100;
+    background: url(findingthepath.jpg) no-repeat;
+    background-size: cover;*/
+
 }
 .button {
     position: relative;
@@ -39,30 +64,3 @@
 a:hover {
     background-color: #2495ff;
 }
-.arrow {
-    width: 100%;
-    text-align: center;
-    display: block;
-    min-height: 50px;
-}
-p {
-    text-align: center;
-}
-h1 {
-    text-align: center;
-}
-.footer {
-    display: block;
-}
-@media (min-width: 320px) {
-    .column {
-        width: 49%;
-    }
-    /*.column:nth-of-type(2n+1) {
-        margin-right: 4%;
-    } */
-}
-@media (max-width: 319px) {
-    html {
-        font-size: 1.25em;
-    }
